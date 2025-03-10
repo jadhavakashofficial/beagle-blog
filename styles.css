@@ -1,0 +1,73 @@
+/* Basic resets and body styling */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif; /* Change to match your Figma font */
+    background-color: #f9f9f9;
+  }
+  
+  /* Introduction Section */
+  .intro {
+    background-color: #ffffff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .intro h1 {
+    margin-bottom: 10px;
+    font-size: 2em;
+  }
+  
+  .intro p {
+    margin-bottom: 20px;
+    font-size: 1.1em;
+    line-height: 1.5;
+  }
+  
+  .intro a {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  /* Images Section */
+  .images {
+    background-color: #eee;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .images h2 {
+    margin-bottom: 10px;
+    font-size: 1.5em;
+  }
+  
+  .images img {
+    margin: 20px 0;
+  }
+  
+  /* Trivia Section */
+  .trivia {
+    background-color: #fff;
+    padding: 20px;
+  }
+  
+  .trivia h2 {
+    margin-bottom: 10px;
+    font-size: 1.5em;
+  }
+  
+  .trivia ol {
+    margin-left: 40px;
+    line-height: 1.6;
+  }
+  
+  .trivia li {
+    margin-bottom: 10px;
+  }
+  
+  /* Hover effect for links */
+  a:hover {
+    opacity: 0.8;
+  }
+  
