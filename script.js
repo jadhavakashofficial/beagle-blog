@@ -1,9 +1,5 @@
-// A simple JavaScript file
-
-// Log a message to the console when the page loads
-console.log("Welcome to the Beagle Blog!");
-
-// Optional: Add a small interactive feature
-window.addEventListener('DOMContentLoaded', () => {
-  // alert("Beagle Blog page loaded!");
-});
+// When the DOM content is fully loaded, log a confirmation to the console.
+document.addEventListener('DOMContentLoaded', function() {
+    console.log("Beagle Blog loaded successfully!");
+  });
+  
